@@ -1,2 +1,116 @@
-# zadanie1
-Задание 2. Неделя 2.
+# zadanie2
+<html>
+    <head>
+        <style>
+            header {
+            background-image: url('https://main-cdn.sbermegamarket.ru/big2/hlr-system/-71/429/994/469/192/8/600012370923b1.jpeg');
+            background-size: cover;
+            background-position: center;
+            height: 80px;
+            width: 100%;
+            }
+
+            nav {
+                font-size: 18px;
+                font-family: "Arial";
+                text-align: center;
+                margin: 30;
+            }
+
+            nav a {
+                color: black;
+                text-decoration: none;
+                margin: 0 30px;
+                padding-bottom: 1px;
+                border-bottom: 5px solid black;
+                display: inline-block;
+            }
+            main h1 {
+                font-size: 40;
+                text-align: center;
+                font-family: "Arial";
+                margin: 45;
+                font-weight: normal;
+            }
+
+            .images-container {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 80px;
+
+            }
+
+            .image-block {
+                position: relative;
+            }
+
+            .image-block::before {
+                content: "";
+                position: absolute;
+                left: -15px;
+                top: 0;
+                bottom: 0;
+                width: 3px;
+                border-left: 10px dotted black;
+            }
+
+            .image-block img {
+                width: 200px;
+                height: 150px;
+                object-fit: cover;
+                display: block;
+            }
+
+            main p {
+                font-family: "Arial";
+                border: 1px solid black;
+                border-radius: 15px;
+                margin: 30px;
+                padding: 10;
+
+            }
+
+            footer {
+				background-color: black;
+				padding: 10px;
+			}
+
+			footer p {
+				background-color: white;
+				padding: 5px;
+                font-family: "Arial";
+			}
+        </style>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <nav>
+            <a href="#schedule">Расписание</a>
+            <a href="#about_classes">О занятиях</a>
+            <a href="#club_address">Адреса клубов</a>
+        </nav>
+        <main>
+            <h1><strong>Болдеринг</strong></h1>
+            <div class="images-container">
+                <div class="image-block">
+                    <img src="https://avatars.dzeninfra.ru/get-zen_doc/5042138/pub_633d7bd56fc2c707f79ddec1_6343eaf34c004438985aa576/scale_1200" alt="Image 1">
+                </div>
+                <div class="image-block">
+                    <img src="https://i.pinimg.com/originals/35/f9/e0/35f9e08072ddf39323f2edfa240c732d.jpg" alt="Image 2">
+                </div>
+                <div class="image-block">
+                    <img src="https://i.pinimg.com/736x/8c/58/53/8c585357f80c9d5f7bcb30325e431405.jpg" alt="Image 3">
+                </div>
+            </div>
+
+            <p>Скорее сделайте первую попытку залезть наверх! На наших площадках залы разной трудности. Тренировки безопасны, для новичков предусмотрена автостраховка, в залах работают инструкторы.Для детей выделенные зоны с увлекательными аттракционами. Есть абонемент, скидки и система индивидуальных занятий. Перед посещением, пожалуйста, ознакомьтесь с <a href="">правилами</a> техники безопасности.</p1>
+        </main>
+        <footer>
+            <p>E-mail:</p>
+            <p>Телефон</p>
+        </footer>
+    </body>
+</html>
